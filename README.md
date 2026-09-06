@@ -148,14 +148,28 @@ The RAWG API key and base URL are stored separately in ApiConfig, keeping API co
 # 📸 Screenshots
 
 Splash Screen
-<img width="573" height="570" alt="Screenshot 2026-09-06 154801" src="https://github.com/user-attachments/assets/b34d008a-bbeb-4ebe-9dfa-17c741bd2bc4" />
+<img width="373" height="370" alt="Screenshot 2026-09-06 154801" src="https://github.com/user-attachments/assets/b34d008a-bbeb-4ebe-9dfa-17c741bd2bc4" />
+
+
+
+
+
 
 
 
 Home Screen
 
 Search / Discovery Screen
-<img width="651" height="668" alt="Screenshot 2026-09-06 160914" src="https://github.com/user-attachments/assets/4c999763-98bf-480d-b52e-6c2ded612e53" />
+<img width="451" height="468" alt="Screenshot 2026-09-06 160914" src="https://github.com/user-attachments/assets/4c999763-98bf-480d-b52e-6c2ded612e53" />
+
+
+
+
+
+
+
+
+
 
 
 
