@@ -171,7 +171,7 @@ The RAWG API key and base URL are stored separately in ApiConfig, keeping API co
 
 
 
-<img width="351" height="368" alt="Screenshot 2026-09-06 160914" src="https://github.com/user-attachments/assets/4c999763-98bf-480d-b52e-6c2ded612e53" />
+<img width="373" height="370" alt="Screenshot 2026-09-06 160914" src="https://github.com/user-attachments/assets/4c999763-98bf-480d-b52e-6c2ded612e53" />
 
 
 
