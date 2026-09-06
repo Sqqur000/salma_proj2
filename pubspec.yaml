@@ -9,7 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  http: ^1.6.0
+  google_fonts: ^6.3.2
+  loading_animation_widget: ^1.3.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -17,3 +19,17 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+  - 'assets/original-df5fd76539a41ab7808edcff5e2a5a4a.webp'
+  - 'assets/R.jpg'
+  - 'assets/OIP.webp'
+  - 'assets/Strategy.webp'
+  - 'assets/ss_a0389cccc74b3bb7c7888a5be7b415861353e418.1920x1080.jpg'
+  - 'assets/Top-10-Action_Adventure-Game-Franchises-That-Defined-a-Generation.jpg'
+  - 'assets/Why-Tetris-Creator-never-Made-Tetris-2.jpeg'
+  - 'assets/81Gw5AQ04tL.jpg'
+  - 'assets/OIP (1).webp'
+  - 'assets/OIP (2).webp'
+  - 'assets/Horror_Game_Development_Company.webp'
+  - 'assets/1733019437_les-rpg-immersion-et-developpement-de-personnage-dans-le-vaste-univers-des-genres-videoludiques.jpg'
