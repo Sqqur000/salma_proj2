@@ -2,20 +2,30 @@
 
 Discover. Explore. Find Your Next Adventure.
 
-OmniGamer is a Flutter game discovery application powered by the RAWG Video Games Database API. It allows users to explore games, view ratings and release dates, browse genres and platforms, and open detailed information about selected games.
+OmniGamer is a Flutter game discovery application powered by the RAWG Video Games API. It allows users to explore games, view ratings and release dates, browse genres and platforms, and open detailed information about selected games.
 
 # ✨ Features
-🎮 Browse a list of games
-⭐ View game ratings and Metacritic scores
-📅 View release dates
-🔍 Search & discovery section
-🎯 Explore genres and platforms
-📖 View detailed game information
-⏳ Loading, error, and empty states
-📱 Responsive interface using MediaQuery
-🧩 Reusable Flutter widgets
-🧭 Navigation between screens
-🔗 APIs
+### 🎮 Browse a list of games
+
+### ⭐ View game ratings and Metacritic scores
+
+### 📅 View release dates
+
+### 🔍 Search & discovery section
+
+### 🎯 Explore genres and platforms
+
+### 📖 View detailed game information
+
+### ⏳ Loading, error, and empty states
+
+### 📱 Responsive interface using MediaQuery
+
+### 🧩 Reusable Flutter widgets
+
+### 🧭 Navigation between screens
+
+### 🔗 APIs
 
 # OmniGamer uses two RAWG API endpoints following a List → Details pattern.
 
@@ -82,18 +92,31 @@ Game cards are reusable UI components displayed inside the game grid. They use r
 # The Search screen provides a visual discovery area with:
 
 Action
+
 Strategy
+
 RPG
+
 Shooter
+
 Adventure
+
 Puzzle
+
 Racing
+
 Sports
+
 Simulation
+
 Horror
+
 PC
+
 PlayStation
+
 Xbox
+
 Mobile
 
 # 📖 Game Details
@@ -107,10 +130,15 @@ The Details screen then requests:
 and displays:
 
 Game artwork
+
 Name
+
 Rating
+
 Release date
+
 Metacritic score
+
 Description
 
 HTML tags returned inside descriptions are cleaned before displaying the text.
@@ -120,8 +148,11 @@ HTML tags returned inside descriptions are cleaned before displaying the text.
 The application contains four main screens:
 
 Splash Screen
+
 Home Screen
+
 Search Screen
+
 Details Screen
 
 Navigation uses Flutter's Navigator, including passing the selected GameModel to the Details screen.
@@ -131,16 +162,27 @@ Navigation uses Flutter's Navigator, including passing the selected GameModel to
 FutureBuilder is used to manage API states:
 
 Loading → animated loading indicator
+
 Error → "Oops Something went wrong!"
+
 No data → "No game found"
+
 Success → display the requested game information
-🛠️ Technologies
+
+# 🛠️ Technologies
+
 Flutter
+
 Dart
-RAWG Video Games Database API
+
+RAWG Video Games API
+
 HTTP
+
 Google Fonts
+
 Loading Animation Widget
+
 # 🔐 API Configuration
 
 The RAWG API key and base URL are stored separately in ApiConfig, keeping API configuration outside the UI and service logic.
@@ -159,7 +201,15 @@ The RAWG API key and base URL are stored separately in ApiConfig, keeping API co
 
 
 
- Home Screen
+ ### Home Screen
+<img width="373" height="370" alt="Screenshot 2026-09-06 215830" src="https://github.com/user-attachments/assets/029728ad-8318-4b7c-86e8-cab94a69cdd9" />
+<img width="373" height="370" alt="Screenshot 2026-09-06 215711" src="https://github.com/user-attachments/assets/ce74aadb-7b27-4de1-a4b7-8e4bc132e879" />
+
+
+
+
+ 
+
 
 
 
@@ -171,49 +221,67 @@ The RAWG API key and base URL are stored separately in ApiConfig, keeping API co
 
 
 
+
 <img width="373" height="370" alt="Screenshot 2026-09-06 160914" src="https://github.com/user-attachments/assets/4c999763-98bf-480d-b52e-6c2ded612e53" />
 
 
 
 
 
+### Game Details Screen
 
 
 
 
+<img width="373" height="370" alt="Screenshot 2026-09-06 215846" src="https://github.com/user-attachments/assets/d92cd65f-fbab-4ca6-9132-65f57cff5d72" />
+<img width="373" height="370" alt="Screenshot 2026-09-06 220019" src="https://github.com/user-attachments/assets/3ec0035f-35af-4585-a622-df58f4c05e7a" />
+<img width="373" height="370" alt="Screenshot 2026-09-06 215812" src="https://github.com/user-attachments/assets/5309dca0-0d09-419d-b8a2-46e100f46188" />
+<img width="373" height="370" alt="Screenshot 2026-09-06 220137" src="https://github.com/user-attachments/assets/7b3b9747-329e-49c7-b5ae-3868d7f3080d" />
+<img width="373" height="370" alt="Screenshot 2026-09-06 220048" src="https://github.com/user-attachments/assets/2e97d4ab-43b7-4d31-8505-a4447d3ff391" />
 
-
-
-
-
-
-
-
-
-
-Game Details Screen
 
 # 🚀 Extra Features
+
 Reusable custom widgets
+
 Responsive layouts
+
 Custom gaming background
+
 Genre and platform discovery cards
+
 Animated loading states
+
 HTML description cleaning
+
 Clean separation between models, services, screens, and widgets
+
 # 🎯 Assignment Requirements
+
  List screen using API
+ 
  Details screen using API
+ 
  Pass game ID between screens
+ 
  fromJson model
+ 
  FutureBuilder
+ 
  Loading state
+ 
  Error state
+ 
  Empty state
+ 
  Navigation
+ 
  Reusable widgets
+ 
  Organized project structure
+ 
  List → Details API flow
+ 
 # 💡 Learning Outcomes
 
 Through OmniGamer, the project demonstrates practical experience with Flutter UI development, REST APIs, JSON parsing, asynchronous programming, navigation, reusable widgets, responsive layouts, and API-driven applications.
